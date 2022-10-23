@@ -125,14 +125,13 @@ section span {
 }
 .sec5 .parent1{
     position: absolute;
-    left: 1rem;
+    left: 2rem;
     min-width: 350px;
     min-height: 340px;
-    margin-right: 2rem;
 }
 .sec5 .parent2{
     position: absolute;
-    left: 39%;
+    left: 37%;
     min-width: 350px;
     min-height: 340px;
 }
