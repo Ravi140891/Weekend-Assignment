@@ -162,7 +162,7 @@ section span {
     top: 20rem;
 }
 .flex{
-    background-color: lightgray;
+    background-color: rgba(245, 240, 240, 0.945);
     text-align: center;
     padding: 5rem;
     width: 100%;
@@ -218,5 +218,28 @@ section span {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: 3px solid #d81059;
+}
+footer{
+    padding: 1rem;
+    background-color: #20b0a9;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+.insta{
+    margin: 0 50px;
+}
+.tweet{
+    margin: 0 50px;
+}
+.fb{
+    margin: 0 50px;
+    padding: 0 5px;
+    color: #20b0a9;
+    background-color: whitesmoke;
+    border-radius: 50%;
 }
