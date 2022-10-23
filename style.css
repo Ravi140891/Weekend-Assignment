@@ -188,14 +188,14 @@ section span {
   margin: 5px;
 }
 .cont2{
-  /* margin: 0 50px; */
+  margin: 0 50px;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
-  /* gap: 10px; */
-  /* padding-bottom: 50px; */
-  /* margin-bottom: 80px; */
-  /* border-bottom: 3px solid #d81059; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+  border-bottom: 3px solid #d81059;
 }
 
