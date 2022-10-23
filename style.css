@@ -178,7 +178,6 @@ section span {
   margin-bottom: 80px;
 }
 .item{
-  list-style: none;
   width: 150px;
   height: 150px;
   background-color: #9ad8c9;
@@ -187,15 +186,37 @@ section span {
   line-height: 140px;
   margin: 5px;
 }
-.cont2{
-  margin: 0 50px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 10px;
-  padding-bottom: 50px;
-  margin-bottom: 80px;
-  border-bottom: 3px solid #d81059;
+.item2{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #20b0a9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 50px;
 }
-
+.cont2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #d81059;
+}
+.cont3{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #d81059;
+}
+.cont3 .big{
+    flex-grow: 4;
+}
+.cont4{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #d81059;
+}
