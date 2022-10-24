@@ -148,7 +148,7 @@ section span {
 .sec5 .parent4{
     position: absolute;
     bottom: -120%;
-    min-width: 380px;
+    max-width: 380px;
     min-height: 350px;
     max-height: 350px;
     margin: 0 1rem;
